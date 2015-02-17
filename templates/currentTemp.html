@@ -1,0 +1,25 @@
+<div class="currently">
+    <div class="timezone current">
+    <h5>Current Timezone</h5>
+        <%= timezone %>
+    </div>
+    <div class="summmary current">
+        <h5>Current Summary</h5>
+        <%= currently.summary %>
+    </div>
+    <div class="temperature current">
+        <h5>Current Temperature</h5>
+        <%= currently.temperature %>
+    </div>
+</div>
+
+<!--  -->
+
+<div class="hourly hour">
+    <div class="hSummary hour">
+        <%= hourly.data[0].summary %>
+    </div>
+    <div class="hTemp hour">
+        <%= hourly.data[0].apparentTemperature %>
+    </div>
+</div>
