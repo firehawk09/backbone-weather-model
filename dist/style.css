@@ -865,7 +865,7 @@ body {
     color: white; }
     body .locationBar .currentLocation {
       position: absolute;
-      left: 20em; }
+      left: 10em; }
   body .side {
     background-color: #FFD1DB;
     color: #5A1F00;
